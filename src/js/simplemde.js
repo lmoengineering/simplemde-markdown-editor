@@ -1480,6 +1480,7 @@ SimpleMDE.prototype.render = function(el) {
 	}
 
 	this.codemirror = CodeMirror.fromTextArea(el, {
+		inputStyle: 'textarea',
 		mode: mode,
 		backdrop: backdrop,
 		theme: "paper",
